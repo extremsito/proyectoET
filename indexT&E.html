@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web con imágenes</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe0b3;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .container .text {
+            max-width: 400px;
+            margin: 10px;
+            color: #ff4da6;
+            text-align: justify;
+        }
+        h2 {
+            color: #ff4da6;
+        }
+        h1 {
+            color: #ff4da6;
+            padding-left: 40%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jugadores de Fútbol</h1>
+    <div class="container">
+        <img src="messi.jpg" alt="Imagen 1">
+        <div class="text">
+            <h2>Messi</h2>
+            <p>Leo Messi, es un futbolista argentino que juega como delantero o centrocampista. Desde 2023, integra el plantel del Inter Miami de la MLS estadounidense. Es también internacional con la selección de Argentina, de la que es capitán.</p>
+        </div>
+
+        <img src="suarezlucho.png" alt="Imagen 2">
+        <div class="text">
+            <h2>Suarez</h2>
+            <p>Es un futbolista uruguayo que juega como delantero y su equipo actual es el Grêmio del Campeonato Brasileño de Serie A. Es internacional con la selección de fútbol de Uruguay desde el 7 de febrero de 2007</p>
+        </div>
+        <img src="ney.jpg" alt="Imagen 3">
+        <div class="text">
+            <h2>Neymar</h2>
+            <p>Neymar da Silva Santos Júnior, conocido como Neymar Júnior o simplemente Neymar, es un futbolista brasileño que juega como delantero en el Al-Hilal Saudi F. C. de la Liga Profesional Saudí. Es internacional absoluto con la selección de fútbol de Brasil.​</p>
+        </div>
+        <!-- [...]/sorpresa -->
+    </div>
+</body>
+</html>
